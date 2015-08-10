@@ -3,19 +3,16 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jekyll UX Rocket Sample · Home</title>
+    <title>Jekyll UX Rocket Sample{% if page.title %} · {{page.title}}{% endif %}</title>
 
-    <link rel="stylesheet" href="/assets/styles/styles.css" />
+    <link rel="stylesheet" href="{{site.baseurl}}/assets/styles/styles.css" />
 </head>
-<body class="home">
+<body class="{{page.class}}">
 <div class="page-wrapper">
     <header id="masthead" class="page-header"></header>
 
     <div class="page-main">
-        <p>This is the homepage content. Edit <code>index.html</code> file</p>
-
-
-
+        {{content}}
     </div>
 
     <div class="push"></div><!-- for sticky footer -->
