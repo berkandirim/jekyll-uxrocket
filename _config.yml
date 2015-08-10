@@ -1,0 +1,11 @@
+baseurl:
+timezone: Europe/Istanbul
+destination: _build
+exclude: ['README.md', '.gitignore']
+include: [.htaccess]
+markdown: redcarpet
+permalink: /blog/:year/:month/:day/:title/
+sass:
+  style: compressed
+  source: rocket-engine/styles
+  destination: assets/styles
