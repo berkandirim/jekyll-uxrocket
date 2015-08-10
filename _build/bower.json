@@ -1,0 +1,30 @@
+{
+  "name": "Jekyll UX Rocket",
+  "version": "0.1.0",
+  "homepage": "https://github.com/berkandirim/jekyll-uxrocket",
+  "authors": [
+    "Berkan Dirim <berkandirim@gmail.com>"
+  ],
+  "description": "A Jekyll boilerplate using UX Rocket elements, Melange and Caffeine.",
+  "main": "index.html",
+  "keywords": [
+    "jekyll",
+    "melange",
+    "uxrocket"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "caffeine": "~0.5.1",
+    "jquery": "~2.1.4",
+    "melange": "~0.5.0",
+    "modernizr": "~2.8.3",
+    "grunt": "~0.4.5"
+  }
+}

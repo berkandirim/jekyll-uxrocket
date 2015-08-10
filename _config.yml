@@ -5,7 +5,3 @@ exclude: ['README.md', '.gitignore', 'bower_components', 'rocket-engine']
 include: [.htaccess]
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title/
-sass:
-  style: compressed
-  source: rocket-engine/styles
-  destination: assets/styles
