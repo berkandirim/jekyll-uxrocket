@@ -1,6 +1,6 @@
 baseurl:
 timezone: Europe/Istanbul
 destination: _build
-exclude: ['README.md', '.gitignore', 'bower_components', 'rocket-engine', 'bower.json', 'package.json', 'Gruntfile.js']
+exclude: ['README.md', '.gitignore', 'bower_components', 'node_modules', 'rocket-engine', 'bower.json', 'package.json', 'Gruntfile.js', 'assets/styles/styles.css.map', 'assets/scripts/app.js.map']
 include: [.htaccess]
 markdown: redcarpet

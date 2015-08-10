@@ -6,6 +6,9 @@ module.exports = function (grunt) {
 
         sass: {
             dist: {
+                options: {
+                    style: 'compressed'
+                },
                 files: {
                     'assets/styles/styles.css': 'rocket-engine/styles/styles.scss'
                 }
