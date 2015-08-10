@@ -1,1 +1,10 @@
 .idea
+bower_components
+
+assets/scripts/vendors/jquery.min.js
+
+assets/scripts/vendors/modernizr.js
+
+_build/assets/scripts/vendors/jquery.min.js
+
+_build/assets/scripts/vendors/modernizr.js

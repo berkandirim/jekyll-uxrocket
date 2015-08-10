@@ -1,7 +1,7 @@
 baseurl:
 timezone: Europe/Istanbul
 destination: _build
-exclude: ['README.md', '.gitignore']
+exclude: ['README.md', '.gitignore', 'bower_components', 'rocket-engine']
 include: [.htaccess]
 markdown: redcarpet
 permalink: /blog/:year/:month/:day/:title/
