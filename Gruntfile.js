@@ -1,15 +1,29 @@
 module.exports = function (grunt) {
 
     grunt.initConfig({
+
+        pkg: grunt.file.readJSON('package.json'),
+
         sass: {
             dist: {
                 files: {
                     'assets/styles/styles.css': 'rocket-engine/styles/styles.scss'
                 }
             }
+        },
+
+        watch: {
+            css: {
+                files: '**/*.scss',
+                tasks: ['sass']
+            }
         }
+
     });
 
-    grunt.registerTask('default', ['sass']);
+    grunt.loadNpmTasks('grunt-contrib-sass');
+    grunt.loadNpmTasks('grunt-contrib-watch');
+
+    grunt.registerTask('default', ['watch']);
 
 };
