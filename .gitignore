@@ -1,5 +1,8 @@
 .idea
+
 bower_components
+
+node_modules
 
 assets/scripts/vendors/jquery.min.js
 
@@ -12,3 +15,5 @@ _build/assets/scripts/vendors/modernizr.js
 _build/bower.json
 
 _build/bower.json
+
+_build/node_modules

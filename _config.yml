@@ -4,4 +4,3 @@ destination: _build
 exclude: ['README.md', '.gitignore', 'bower_components', 'rocket-engine', 'bower.json', 'package.json', 'Gruntfile.js']
 include: [.htaccess]
 markdown: redcarpet
-permalink: /blog/:year/:month/:day/:title/
